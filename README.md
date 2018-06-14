@@ -6,6 +6,22 @@ These guidelines are a community resource. They are meant to help guide and info
 
 The Guidelines are constantly evolving with expert feedback. All suggestions made here are managed by expert members of our community, who have experience with the best practices and common pitfalls of secure smart contract development. Their wisdom is meant to help you on your journey
 
+{% method %}
+## Install {#install}
+
+The first thing is to get the GitBook API client.
+
+{% sample lang="js" %}
+```bash
+$ npm install gitbook-api
+```
+
+{% sample lang="go" %}
+```bash
+$ go get github.com/GitbookIO/go-gitbook-api
+```
+{% endmethod %}
+
 ## Reading the Guidelines
 
 Each article is designed to read on its own, with a consistent style \(Who, What, Why, etc\).   
